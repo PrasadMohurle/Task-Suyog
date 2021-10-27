@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RegisterPage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <h1>REGISTRATION PAGE</h1>
+      <div class="container">
+      <form id="id_form">
+        <strong>User Name:</strong> <input type="text" name="UserName" id="id_username" placeholder="Enter Username"/><span id="sp1"></span>
+        <br />
+        <br />
+        <strong>Password:</strong> <input type="password" name="Password" id="id_password" placeholder="Enter Password"/><span id="sp2"></span>
+        <br />
+        <br />
+        <strong>E-Mail:</strong> <input type="email" name="Email" id="id_email" placeholder="Enter your Email"><span id="sp3"></span>
+        <br />
+        <br />
+        <strong>MobileNum:</strong> <input type="text" name="MoboleNumber" id="id_mobileNumber" placeholder="Enter your Mobile Num "><span id="sp4"></span>
+        <br>
+        <br>
+        <button onclick="validate()" class="button button1">Check Details</button> 
+        <button onclick="detailVerified()" class="button button2">Register</button> 
+<!--         <input type="button" id="btn" class="button button3" value="SUBMIT" onclick="validate()" />
+ -->
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
